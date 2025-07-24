@@ -1,5 +1,5 @@
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton
-from telegram.ext import Application, MessageHandler, filters, ContextTypes, ConversationHandler
+from telegram.ext import Application, MessageHandler, filters, ContextTypes, ConversationHandler, CommandHandler
 import os
 
 # Токен и ID админа
